@@ -17,7 +17,7 @@ const HeaderRight = ({toggleDrawer}) => {
         <div className="flex flex--justify-content-between flex--align-items-center">
         {isMobile || isIpad ? "":
           <span className='position--relative flex flex--justify-content-end flex--align-items-start header--menu-hover'>
-          <Link href={"/cart"}> <BsCart3 className='fs--25 ml--20'/>
+          <Link href={"cart"}> <BsCart3 className='fs--25 ml--20'/>
           </Link> 
             <span className='fs--12 header--menu-cart position--absolute bg--error flex flex--justify-content-center flex--align-items-center'>{cartList.total}</span>
           </span>
