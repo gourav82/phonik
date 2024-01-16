@@ -14,9 +14,9 @@ const Header = () => {
   }
   return (
     <>
-    <div className="header bg--shadow pb--10">
-      <TopHeader />
-      <div className="container--responsive header--menu pt--5 pb--5 flex flex--justify-content-between flex--align-items-center">
+    <div className="header bg--shadow">
+      {/* <TopHeader /> */}
+      <div className="container--responsive header--menu pb--5 flex flex--justify-content-between flex--align-items-center">
         <HeaderLeft/>
         <HeaderRight toggleDrawer={toggleDrawer} />
       </div>

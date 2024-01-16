@@ -12,7 +12,6 @@ const [modal, setModal] = useState(false);
   const handleModal =(item)=>{
     setModal(!modal);
     setItems(item);
-    console.log(items, "helooo uhfayhbf  ufciaf a")
 }
 
 useEffect(()=>{

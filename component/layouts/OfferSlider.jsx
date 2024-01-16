@@ -19,7 +19,7 @@ const OfferSlider = () => {
         {offerSlider.map((items,index)=>{
             return(
     <div className='offer' key={`cat-${index}`}>
-        <Image src={items.img} alt={items.alt} width={1500} height={0} sizes="10vw" className='mb--15 mt--20'/>
+        <img src={items.img} alt={items.alt} sizes="10vw" className='mb--35 mt--35'/>
     </div>
             )
         })}
@@ -34,7 +34,7 @@ export default OfferSlider
 
 const offerSlider =[
     {
-      img:"/assets/image/m_stick.jpg",
+      img:"/assets/image/d1.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -42,7 +42,7 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/m_stick1.jpg",
+      img:"/assets/image/d2.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -50,7 +50,7 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/phonik3.jpg",
+      img:"/assets/image/d3.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -58,7 +58,7 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/phonik4.jpg",
+      img:"/assets/image/d4.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -66,7 +66,7 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/phonik3.jpg",
+      img:"/assets/image/d5.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -74,7 +74,7 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/phonik4.jpg",
+      img:"/assets/image/d6.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
@@ -82,14 +82,14 @@ const offerSlider =[
       mrp:"15"
     },
     {
-      img:"/assets/image/phonik5.jpg",
+      img:"/assets/image/d7.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
       avg_review:"1",
       mrp:"15"
     },{
-      img:"/assets/image/phonik6.jpg",
+      img:"/assets/image/d8.jpg",
       name:"Rose Agarbatti",
       stick:"18",
       price:"10",
