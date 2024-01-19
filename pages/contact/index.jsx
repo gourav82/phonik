@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     
     <div className="container--responsive contact font--center mb--50">
-    <p className='fs--30 color--error mb--50'>Contact Us</p>
+    <p className='fs--35 color--error mb--50'>Contact Us</p>
     <div className={`contact--details ${isMobile || isIpad ? "flex--direction-column":"flex flex--justify-content-between"}`}>
         <div className=" flex flex--direction-column">
             <span className='bg--shadow mb--20 pd--15 bg--radius'>
