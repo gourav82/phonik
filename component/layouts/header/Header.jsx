@@ -17,7 +17,6 @@ const Header = () => {
     <div className="header bg--shadow">
       {/* <TopHeader /> */}
       <div className="container--responsive header--menu pb--5 flex flex--justify-content-between flex--align-items-center">
-        Testing the header
         <HeaderLeft/>
         <HeaderRight toggleDrawer={toggleDrawer} />
       </div>
