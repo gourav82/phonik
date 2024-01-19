@@ -60,7 +60,7 @@ const categoryApi =()=>{
             <Slider {...settings}>
                 {AllBrand.map((items,index)=>{
                     return(
-            <div className='category' key={`cat-${index}`}>
+            <div className='category  mb--100' key={`cat-${index}`}>
                 <Image src={items.img} alt={items.name} width={180} height={180} className='mb--15 mt--20'/>
                 <span className='fs--15 font--bold pt--10'>{items.name}</span>
             </div>
