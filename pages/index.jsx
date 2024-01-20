@@ -24,9 +24,11 @@ import { getUrlFromStorageAPI } from "../services/Common";
 
   }
   return (
-    <>{isLoading? <Lodding/>:
-      <Home/>
-    }
+    // <>{isLoading? <Lodding/>:
+    //   <Home/>
+    // }
+    <>
+    <Home/>
     </>
   )
 }

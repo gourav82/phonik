@@ -34,7 +34,7 @@ const Header = () => {
         <ul className='flex flex--direction-column flex--align-items-center width--column-two-10'>
             <li className='fs--22 mt--20'><Link href={"/"}> Home</Link></li>
             <li className='fs--22 mt--20'><Link href={"/"}>Buffet</Link></li>
-            <li className='fs--22 mt--20'><Link href={"/"}>Categury</Link></li>
+            <li className='fs--22 mt--20'><Link href={"/"}>Category</Link></li>
             <li className='fs--22 mt--20'><Link href={"/"}>Favourite</Link></li>
         </ul>
     </div>
