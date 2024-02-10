@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <>    {isMobile || isIpad? <FooterMobile/>:
-<div className="footer pb--20 pt--50">
+<div className="footer pb--20 mt--100 pt--20">
       <div className="container--responsive flex flex--justify-content-between pb--60">
         <div className="footer--logo">
          <span className='fs--48 color--error font--bold'>Phonik Industries</span>

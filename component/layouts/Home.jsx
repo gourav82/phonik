@@ -5,7 +5,6 @@ import PopularItems from './PopularItems'
 import LatestItems from './LatestItems'
 import MainBanner from './MainBanner'
 import { toast,ToastContainer } from 'react-toastify'
-import CarDetails from '../CarDetails'
 
 const Home = () => {
   const displayToast = () => {

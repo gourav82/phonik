@@ -27,15 +27,15 @@ const Header = () => {
         direction='right'
         className=''
       >
-       <div className="flex flex--direction-column flex--justify-content-between flex--align-items-center pd--20">
+       <div className="flex flex--direction-column flex--justify-content-between flex--align-items-center pd--15">
        <Link href={"/"}>
         <Image src="/assets/image/logo.png" alt="" width="70" height="70"/>
         </Link>
         <ul className='flex flex--direction-column flex--align-items-center width--column-two-10'>
-            <li className='fs--22 mt--20'><Link href={"/"}> Home</Link></li>
-            <li className='fs--22 mt--20'><Link href={"/"}>Buffet</Link></li>
+            <li className='fs--22 mt--10'><Link href={"/"}> Home</Link></li>
+            <li className='fs--22 mt--20'><Link href={"/about"}>About</Link></li>
             <li className='fs--22 mt--20'><Link href={"/"}>Category</Link></li>
-            <li className='fs--22 mt--20'><Link href={"/"}>Favourite</Link></li>
+            <li className='fs--22 mt--20'><Link href={"/contact"}>Contact</Link></li>
         </ul>
     </div>
       </Drawer>
